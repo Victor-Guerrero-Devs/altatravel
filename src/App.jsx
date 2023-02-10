@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <Button variant="contained">Hello World</Button>
+      <Typography variant="h1" gutterBottom>
+        h1. Heading
+      </Typography>
     </div>
   );
 }
